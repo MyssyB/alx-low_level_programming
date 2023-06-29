@@ -2,8 +2,9 @@
 
 /**
  * print_rev - prints a string in revserse.
+ * @s: string to be printed in reverse.
  *
- * Return: Always 0.
+ * Return: Nothing on Success
  */
 void print_rev(char *s)
 {
@@ -18,8 +19,8 @@ void print_rev(char *s)
 	while (count)
 	{
 		s--;
-		putchar(*s);
+		_putchar(*s);
 		count--;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
