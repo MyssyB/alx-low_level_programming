@@ -30,6 +30,6 @@ int main(void)
 	}
 	if (n < 2)
 		max = n;
-	print("%d\n", max);
+	print("%ld\n", max);
 	return (0);
 }
