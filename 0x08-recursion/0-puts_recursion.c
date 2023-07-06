@@ -4,7 +4,7 @@
  * @s: input
  * Return: ALways 0 (success)
  */
-void puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
