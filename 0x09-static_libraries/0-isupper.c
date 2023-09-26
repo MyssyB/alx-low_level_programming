@@ -1,5 +1,4 @@
-#include main.h
-
+#include "main.h"
 /**
  * _isupper - uppercase letters
  * @c: char to check
@@ -14,4 +13,3 @@ return (1);
 else
 return (0);
 }
-
