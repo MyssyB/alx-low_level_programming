@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,13 +11,13 @@ int main(void)
 {
     char *s;
 
-    s = str_concat(Betty , Holberton);
+    s = str_concat("Betty ", "Holberton");
     if (s == NULL)
     {
-        printf(failedn);
+        printf("failed\n");
         return (1);
     }
-    printf(%sn, s);
+    printf("%s\n", s);
     free(s);
     return (0);
 }

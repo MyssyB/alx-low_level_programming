@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,7 +16,7 @@ int main(int ac, char *av[])
     {
         return (1);
     }
-    printf(%s, s);
+    printf("%s", s);
     free(s);
     return (0);
 }
