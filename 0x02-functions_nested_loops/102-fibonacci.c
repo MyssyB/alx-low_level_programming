@@ -8,7 +8,7 @@ int main(void)
 {
 	long pri = 1, sec = 2, sum;
 
-	print("1, 2");
+	printf("1, 2");
 	while (sum < 20365011073)
 	{
 		sum = pri + sec;
@@ -18,3 +18,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
+}
